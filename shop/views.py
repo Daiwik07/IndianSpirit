@@ -7,7 +7,6 @@ from django.contrib.auth import authenticate
 from django.contrib.auth import logout
 from django.contrib.auth.models import User
 from .models import Sign
-from pandas import pandas as pd
 import os
 from django.conf import settings
 from django.core.files.storage import FileSystemStorage
